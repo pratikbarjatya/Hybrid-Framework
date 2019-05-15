@@ -1,10 +1,8 @@
---
 # Selenium Automation Framework
 An Automation Framework is collection of assumptions,concepts and practices you bring in while developing the automation project, so it helps in constituting a work platform or support for automated testing.It would be great, if the framework is application independent.
 
 If you look into the any existing framework,it will be block of  function libraries for reporting , error handling ,  and driver scripts.So the test automation framework is an execution environment for automated tests. It is the overall system in which our tests will be automated.
 #### README Contents
---
 
 - [What is a Framework](#a1)
 - [Why do we need Automation framework](#a2)
@@ -105,12 +103,10 @@ If we see the above example, For Login(uname) we can run the script with any dat
 
 
 ### Data-Driven Frameworks
---
 
 A data-driven framework is where test input and output values are read from data files (ODBC sources, CVS files, Excel files, DAO objects, ADO objects, and such) and are loaded into variables in captured or manually coded scripts. In this framework, variables are used for both input values and output verification values. Navigation through the program, reading of the data files, and logging of test status and information are all coded in the test script. This is similar to table-driven testing (which is discussed shortly) in that the test case is contained in the data file and not in the script; the script is just a "driver," or delivery mechanism, for the data. In data-driven testing, only test data is contained in the data files. 
 
 ### Keyword-Driven Framework
---
 
 This requires the development of data tables and keywords, independent of the test automation tool used to execute them and the test script code that "drives" the application-under-test and the data. Keyword-driven tests look very similar to manual test cases. In a keyword-driven test, the functionality of the application-under-test is documented in a table as well as in step-by-step instructions for each test. In this method, the entire process is data-driven, including functionality.
 
@@ -125,11 +121,9 @@ Before getting into the framework, lets discuss on what are the external files w
 * **TestNG plugin for Eclipse**: This will be required to run the TestNG scripts in eclipse and the content of this plugin has to be placed inside the dropin folder inside the eclipse directory. The file can be downloaded from http://testng.org/doc/download.htmlframeworks
 
 ### Purpose:
---
 To build a Hybrid Test Automation Framework which can be used across different web based applications. In this approach, the endeavor is to build a lot of applications independent reusable keyword components so that they can directly used for another web application without spending any extra effort. With this framework in place, whenever we need to automate a web based application, we would not need to start from scratch, but use the application independent keyword components to the extent possible and create application specific components for the specific needs.
 
-### Tools
--- 
+### Tools 
 
  * **IntelliJ IDE** - Best Java IDE in the Whole Wide World!!!
  * **Eclipse Java EE**
@@ -152,10 +146,7 @@ To build a Hybrid Test Automation Framework which can be used across different w
  * **Others Open-Source tools**
 
 ### Framework Structure:
---
-
 The framework consists of the following components.
-
 
 - **com.totsy.config**
     - config.properties
@@ -183,26 +174,24 @@ The framework consists of the following components.
     - Arraylist.java
 
 ### Keywords Library:
---
 
 ### Object Repository:
---
 All the element locator are kept in the Object Repository folder.
 
 ### Generate reports:
---
+
 
 ### Send reports by Email:
---
+
 
 ### Screenshot
---
+
 
 ### Driver Script:
---
+
 
 ### Example codes,
---
+
 
 **Example,** Create an instance of WebDriver
 
@@ -374,7 +363,6 @@ The following Java Log4J example class is a simple example that initializes, and
 ``` 
 
 ### Important Links
---
 
 [Official Website](http://selenium-grid.seleniumhq.org)
 
